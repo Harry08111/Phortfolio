@@ -1,0 +1,112 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #666;
+}
+
+#about {
+  border-top: 4px solid #333;
+  border-bottom: 4px solid #333;
+  padding: 40px 0;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#work li {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#work li:hover {
+  background-color: #eee;
+}
+
+#work p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#contact {
+  padding: 40px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+#contact a {
+  color: #fff;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+  
+  #about p {
+    font-size: 16px;
+  }
+   #work li {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #work p {
+    font-size: 14px;
+  }
+  
+  #contact p {
+    font-size: 16px;
+  }
+}
